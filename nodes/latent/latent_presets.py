@@ -5,7 +5,7 @@ import comfy.model_management
 
 
 # Determine the path to presets.json relative to this file
-_PRESETS_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "presets.json")
+_PRESETS_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "presets.json")
 
 
 def _load_presets():
